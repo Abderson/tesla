@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>tesla</title>
+</head>
+
+<body>
+    <img src="img/logo.png" alt="Logo da tesla" class="logo">
+
+    <ul class="lista">
+        <!-- item 1 -->
+
+        <li class="item">
+            <video src="img/model-y.mp4" autoplay loop muted></video>
+
+            <div class="info-carro">
+                <h1>MODELO Y</h1>
+                <p class="sub-titulo">$7.500 de crédito de impostos federais disponíveis1</p>
+            </div>
+
+            <div class="rodape">
+                <button class="text-drev">Unidade de demonstração</button>
+                <button onclick="aparecerFormulario()">Encomendar Agora</button>
+                <p class="text-rodape">Não garantimos seu veículo imediatamente</p>
+            </div>
+            
+            <!-- Formulário escondido inicialmente -->
+            <div class="formulario">
+                <!-- Conteúdo do formulário aqui -->
+                <h3>Formulário de Encomenda</h3>
+                <form>
+                    <!-- Campos do formulário aqui -->
+                    <input type="text" placeholder="Nome"><br>
+                    <input type="email" placeholder="Email"><br>
+                    <button type="submit">Enviar</button>
+                </form>
+                <button onclick="desaparecerFormulario()">Fechar</button>
+            </div>
+            
+        </li>
+
+        <!-- item 2 -->
+
+        <li class="item">
+            <img src="img/model-3.png" class="img-tesla">
+
+            <div class="info-carro">
+                <h1>MODELO 3 </h1>
+                <p class="sub-titulo">Compre agora o seu tesla</p>
+            </div>
+        </li>
+
+        <!-- item 3 -->
+
+        <li class="item">
+            <img src="img/model-x.png" class="img-tesla " alt="imagem model x">
+
+            <div class="info-carro">
+                <h1 class=" model-x">MODELO X</h1>
+                <p class="sub-titulo">Compre agora seu tesla</p>
+            </div>
+        </li>
+    </ul>
+
+    
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
